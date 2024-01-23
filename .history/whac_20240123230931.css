@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("./field.jpg");
+    background-size: cover;
+}
+
+#board {
+    width: 840px;
+    height: 540px;
+    /* background-color: black; */
+
+    margin: 0 auto;
+    flex: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: url("./soil.jpeg");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+#board div {
+    width: 260px; 
+    height: 180px;
+    background-image: url("./pipe.png");
+    background-size: cover;
+}
+
+#board div img {
+    width: 100px;
+    height: 110px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
